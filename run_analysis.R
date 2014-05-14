@@ -1,6 +1,6 @@
 ##install necessary packages
-install.packages("reshape") ##install reshape package
-library(reshape) ##upload reshape package
+install.packages("reshape2") ##install reshape package
+library(reshape2) ##upload reshape package
 
 ##read relevant files into R
 x_train <- read.table("x_train.txt", header = FALSE) ##uploads x_train data
